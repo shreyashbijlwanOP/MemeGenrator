@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+/* Heeader Style */
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background : linear-gradient(to right,rgb(103,34,128),rgb(166,38,211));
+    justify-content: space-around;
+    color: white;
+    height: 65px;
+}
+.company{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+}
+img{
+    width: 40px;
+    object-fit: contain;
+}
+.logo-title{
+    font-size: 1.3rem;
+}
+.course-title{
+    font-weight: 300;
+}
+/* Heeader Style */
+/* ********************************************************* */
+
+/* Meme Componet */
+
+.meme{
+    width: 80%;
+    margin:40px auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column; 
+}
+.input-div{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+button{
+    padding: 5px;
+    height: 45px;
+    background: none;
+    border: none;
+    color: white;
+    letter-spacing: 1.2px;
+    background:  linear-gradient(to right,rgb(103,34,128),rgb(166,38,211));
+}
+.input-div input{
+    width: 45%;
+    height: 35px;
+  text-indent: 5px;
+    font-family: 'Karla', sans-serif;
+    border: none;
+    border-bottom: 2px solid rgb(103,34,128) ;
+
+}
+.input-div input:focus{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    outline: 2px solid rgb(166,38,211);
+    transition: all .2s;
+    cursor: pointer;
+    
+}
+.img-box{
+    margin-top: 20px;
+    width: 400px;
+    height: 350px;
+    position: relative;
+    align-self: center;
+}
+.img-box img{
+    width: 400px;
+    object-fit: fill;
+    height: 350px;
+    
+}
+.top-text,.bottom-text{
+    position: absolute;
+    color:white ;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 50%;
+}
+.top-text{
+    top:20px;
+    transform: translateX(-50%);
+}
+.bottom-text{
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+
+/* Meme Componet */
